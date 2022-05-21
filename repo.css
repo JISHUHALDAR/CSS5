@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    min-height: 120vh;
+}
+p{
+margin: 0;
+padding-top: 20px;
+font-size: 32px;    
+}
+.grid_container{
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    width: 25%;
+    display: grid;
+    grid-template-columns: 10px 120px;
+    grid-template-rows: 100px 100px 100px 100px
+    100px 100px 100px;
+    gap: 50px 80px;
+    
+}
+.griditem{
+    
+   
+}
+.id{
+    border: none;
+    
+}
+a{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.one:hover{
+    
+    
+    background-color: aqua;
+    animation: one infinite 6s alternate;
+
+}
+@keyframes one{
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 400px;
+    }
+}
+.two:hover{
+
+
+animation: two infinite 6s alternate;
+background-color: aqua;
+}
+@keyframes two{
+    0%{
+        height: 100px;
+    }
+    100%{
+        height: 300px;
+    }
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: aqua;
+}
+

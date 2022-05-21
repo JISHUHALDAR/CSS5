@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    min-height: 150vh;
+}
+.head{
+text-align: center;
+font-size: 60px;
+font-weight: bold;
+}
+.page{
+    padding-top: 50px;
+}
+a{
+    font-size: 30px
+}
+.main_content{
+    width: 50%;
+    margin-left: 25%
+}
+.ones{
+    background-color: grey;
+    animation: ones infinite 4s ease-in-out
+}
+.one{
+    margin: 10% 0% 0% 10%;
+width: 100px;
+height: 100px;
+border: 1px solid red;
+display: inline-block;
+}
+
+@keyframes ones{
+    30%{
+        transform: skewX(30deg);
+    }
+    60%{
+        transform: skewX(-30deg);
+    }
+}
+
+.twos{
+   animation: twos infinite 6s 0s alternate-reverse;
+   background-color: aliceblue; 
+}
+@keyframes twos{
+    0%{
+        transform: skewY(40deg);
+    }
+    100%{
+        transform: skewY(-40deg)
+    }
+}
+.threes{
+    animation: threes infinite 5s 1s linear;
+    background-color: cadetblue;
+}
+@keyframes threes{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.fours{
+  width: 100px;  
+  height: 80px;
+  animation: fours infinite 5s 0s alternate-reverse;
+  background-color: turquoise;
+}
+.fourss{
+   height: 100px;
+   width: 100px;
+   animation: fourss infinite 5s 0s alternate-reverse;
+   background-color: chocolate; }
+.foursss{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    animation: foursss infinite 6s alternate-reverse;
+}
+@keyframes fours{
+    40%{
+        transform: scaleY(2);
+    }
+    60%{
+        transform: scaleY(2);
+    }
+}
+@keyframes fourss{
+    30%{
+        transform: scaleX(2);
+    }
+    50%{
+        transform: scaleX(2)
+    }
+}
+@keyframes foursss{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(220deg);
+    }
+}
+.bold
+{
+    font-size: 50px;
+text-align: center;
+}
+
+
+
+
